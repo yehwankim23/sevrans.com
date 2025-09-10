@@ -12,14 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="stylesheets/output.css" />
-    <script src="script.js" defer></script>
+    <script src="scripts/index.js" defer></script>
   </head>
   <body>
     <div class="m-auto w-[100vmin] flex-col">
-      <div class="mt-[5vmin] h-[20vmin] w-[100vmin]">
+      <!-- header -->
+      <div class="mt-[5vmin] h-[20vmin]">
         <img class="h-[15vmin]" src="images/icon.png" />
         <div class="text-[8vmin] font-bold">세브란스의원</div>
       </div>
+      <!-- menu -->
       <div class="w-[100vmin] border-b border-[#ddd] pb-[5vmin]">
         <a href="https://sevrans.com">
           <div
@@ -33,8 +35,14 @@
             이벤트
           </div>
         </a>
+        <a href="https://sevrans.com/directions">
+          <div class="h-[10vmin] px-[3vmin] text-[#888] hover:text-[#f88]">
+            오시는 길
+          </div>
+        </a>
       </div>
-      <div class="mt-[10vmin] w-[90vmin] flex-col">
+      <!-- body -->
+      <div class="mt-[10vmin] flex-col">
         <img class="w-[90vmin]" src="images/about-1.png" />
         <div class="mt-[10vmin] font-bold">
           세브란스의원에 오신 것을 환영합니다!
@@ -73,8 +81,8 @@
             →
           </div>
         </div>
-        <img class="mt-[10vmin] w-[90vmin]" src="images/about-4.png" />
       </div>
+      <!-- footer -->
       <div
         class="mt-[10vmin] w-[100vmin] flex-col bg-[#444] py-[10vmin] text-[#ddd]"
       >

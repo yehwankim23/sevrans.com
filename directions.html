@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="stylesheets/output.css" />
+    <script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=x1bxbh37mu"></script>
+    <script src="scripts/directions.js" defer></script>
   </head>
   <body>
     <div class="m-auto w-[100vmin] flex-col">
@@ -28,21 +30,46 @@
           </div>
         </a>
         <a href="https://sevrans.com/event">
-          <div
-            class="h-[10vmin] px-[3vmin] text-[#f88] underline underline-offset-[1vmin]"
-          >
+          <div class="h-[10vmin] px-[3vmin] text-[#888] hover:text-[#f88]">
             이벤트
           </div>
         </a>
         <a href="https://sevrans.com/directions">
-          <div class="h-[10vmin] px-[3vmin] text-[#888] hover:text-[#f88]">
+          <div
+            class="h-[10vmin] px-[3vmin] text-[#f88] underline underline-offset-[1vmin]"
+          >
             오시는 길
           </div>
         </a>
       </div>
       <!-- body -->
       <div class="mt-[10vmin] flex-col">
-        <img class="w-[90vmin]" src="images/event.png" />
+        <div id="map" class="h-[60vmin] w-[90vmin]"></div>
+        <div class="mt-[10vmin]">인천 계양구 효서로 53 현대프라자 2층</div>
+        <div class="mt-[10vmin]">
+          <a href="https://naver.me/F4LoLXTn" target="_blank">
+            <img
+              class="w-[15vmin] rounded-[3vmin] drop-shadow"
+              src="images/directions-naver.png"
+            />
+          </a>
+          <a
+            href="https://m.map.kakao.com/scheme/look?p=37.5277,126.7017"
+            target="_blank"
+          >
+            <img
+              class="ml-[10vmin] w-[15vmin] rounded-[3vmin] drop-shadow"
+              src="images/directions-kakao.png"
+            />
+          </a>
+          <a href="https://tmap.life/599a6daa" target="_blank">
+            <img
+              class="ml-[10vmin] w-[15vmin] rounded-[3vmin] drop-shadow"
+              src="images/directions-tmap.png"
+            />
+          </a>
+        </div>
+        <img class="mt-[10vmin] w-[90vmin]" src="images/directions-hours.png" />
       </div>
       <!-- footer -->
       <div
