@@ -244,6 +244,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[\#888\] {
+    color: #888;
+  }
   .text-\[\#ddd\] {
     color: #ddd;
   }
@@ -259,6 +262,13 @@
   .select-none {
     -webkit-user-select: none;
     user-select: none;
+  }
+  .hover\:text-\[\#f88\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #f88;
+      }
+    }
   }
 }
 body {
