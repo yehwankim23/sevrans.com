@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 4vmin;
+  line-height: 1.25;
+  touch-action: manipulation;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
