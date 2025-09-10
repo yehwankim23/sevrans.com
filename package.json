@@ -1,0 +1,13 @@
+{
+  "name": "sevrans-com",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./stylesheets/input.css -o ./stylesheets/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
